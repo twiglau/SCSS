@@ -1,0 +1,17 @@
+
+//2. mixin 代码块
+// @mixin name {
+    
+// }
+
+
+header {
+    height: 100vh;
+    color: $textColor;
+    background-color: lightblue;
+    button {
+        &:hover {
+            background-color: red;
+        }
+    }
+}

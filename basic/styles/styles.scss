@@ -1,0 +1,13 @@
+
+@import './variables';
+@import './header';
+
+.contact {
+    // 5. 继承header样式
+    @extend header;
+    background-color: pink;
+    width: 100% -20%;
+    button {
+    background-color:$primaryBtn;
+    }
+}
